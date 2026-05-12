@@ -31,6 +31,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-rltgoDzvO --delete"
           SOURCE: "dist/"
-          REMOTE_HOST: "recipe.eaglesoftwareteam.com"
+          REMOTE_HOST: ""
           REMOTE_USER: ubuntu
           TARGET: "/var/www/html/recipe-frontend"
